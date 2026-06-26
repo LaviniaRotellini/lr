@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html lang = "eng">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lavinia Rotellini - Digital Humanites MCs</title>
+        <!-- Linking font awesome for icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <!--Linking SWIPER CSS-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+        <link rel = "stylesheet" href="style.css">
+</head>
+
+<body>
+        <!-- Header / Navbar -->
+        <header>
+        <nav class="navbar section-content">
+        <a href = "#" class = "nav-logo">
+        <h2 class = "logo-text">Hello World!</h2>
+        </a>
+        <ul class = "nav-menu">
+                <button id = "menu-close-button" class="fas fa-times"></button>
+
+                <li class = "nav-item">
+                        <a href="#home-section" class = "nav-link">Home</a>
+                </li>
+                <li class = "nav-item">
+                        <a href="progetti.html" class = "nav-link">Progetti</a>
+                </li>
+                <li class = "nav-item">
+                        <a href="corsi.html" class = "nav-link">Corsi</a>
+                </li>
+                <li class = "nav-item">
+                        <a href="altro.html" class = "nav-link">Altro</a>
+                </li>
+                <li class = "nav-item">
+                        <a href="#contact" class = "nav-link">Contatti</a>
+                </li>
+                
+                </ul>
+
+                <button id = "menu-open-button" class="fas fa-bars"></button>
+        </nav>
+        </header>
+
+        <main>
+        <!-- Home Section -->
+         <section class="home-section" id="home-section">
+                <div class="section-content">
+                       <div class="home-details">
+                        <h1 class = "title" fontsize = "large">Hello!</h1>
+                        <p class= "description">Ciao! Sono Lavinia Rotellini, specialista di Natural Language Processing e analista di dati. Mi sono laureata nella magistrale in Informatica Umanistica/Digital Humanities
+                                dell'Università di Pisa con la votazione di 110/110 e lode. La mia triennale in Lettere Moderne mi ha permesso di approfondire il mio pensiero critico e la mia capacità di muovermi in quadri molto ampli, permettendomi di concentrarmi sugli interessi da più tempo presenti nella mia vita
+                                , la lettura e la scrittura.
+                        </p>
+                        <!--
+                        <div class="buttons">
+                                <a href="" class="button order-now">I miei Progetti</a>
+                                <a href="" class="button order-now">Linguistica Computazionale II</a>
+                        </div>
+                -->
+                       </div> 
+                </div>
+
+         </section>
+         
+         <!-- Sezione dei corsi -->
+          <section class="sezione-corsi" id="corsi">
+                <div class="section-content">
+                        <div class="corsi-details">
+                                <h2 class="section-title">Corsi Universitari</h2>
+                                <p class="text">Il mio percorso in magistrale si è orientato verso una specializzazione orientata alla gestione e all'analisi di dati, sia linguistici che di natura più generica. 
+                                        Ho approfondito le mie conoscenze in merito di linguistica computazionale e natural language processing per la pulizia e comprensione di corpus linguistici, affiancando a questo competenze in analisi di testi e 
+                                database con dati di tipo diversificato. I corsi più professionalizzanti che ho seguito si sono articolati attorno al machine learning, data mining, text analytics e analisi di reti.</p>
+                                <div class="social-link-list">
+                                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                                        <a href="#" class="social-link"><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                        </div>
+                </div>
+          </section>
+
+          <!--Sezione Progetti-->
+          <section class="progetti-section" id="progetti">
+                <h2 class="section-title">I Miei Progetti</h2>
+                <div class="section-content">
+                        <ul class="progetti-list">
+                                <!--DUPLICARE PER TUTTI I PROGETTI DA INSERIRE-->
+                                <li class="progetti-item">
+                                        <p class="text">Le competenze possono essere sviluppate solo mettendo mano concretamente a casi di studio reali. Durante il mio percorso universitario, i corsi che ho seguito hanno sempre previsto la realizzazione di progetti di analisi e programmazione.
+                                                Allo scopo di approfondire e consolidare gli approcci imparati tramite progetti universatari, ho continuato ad esplorare la materia anche con progetti personali.</p>
+                                </li>
+                        </ul>
+                </div>
+          </section>
+
+          <!--Sezione Altro con scorrimento-->
+          <section class="altro-section" id="altro">
+                <h2 class="section-title">Hobby ed Interessi</h2>
+                <div class="section-content">
+                        <div class="slider-container">
+                                <div class="slider-wrapper">
+                                        <ul class="altro-list swiper-wrapper">
+                                                <!--REPLICARE PER OGNI HOBBY-->
+                                                <li class="altro swiper-slide">
+                                                        <img src="images/writer.png" alt="Writer" class="altro-image">
+                                                <h3 class="name">Scrittura</h3>
+                                                <i class="feedback">Ho sempre avuto una forte necessità alla scrittura, è il mezzo attraverso il quale mi è più facile esprimermi.</i>
+                                                </li>
+                                                <li class="altro swiper-slide">
+                                                        <img src="images/goose-fella.png" alt="disegno" class="altro-image">
+                                                <h3 class="name">Disegno</h3>
+                                                <i class="feedback">Non penso sarò mai in grado di realizzare un ritratto realistico, ma non ha importanza, le mie forme preferite sono le stilizzate ed i patchwork.</i>
+                                                </li>
+                                                <li class="altro swiper-slide">
+                                                        <img src="images/lettura .jpg" alt="Writer" class="altro-image">
+                                                <h3 class="name">Lettura</h3>
+                                                <i class="feedback">Al pari della scrittura, la lettura non mi ha mai lasciata da quando ho memoria. I miei genitori ed i miei nonni mi hanno letto libri finché non sono stata in grado di leggere da sola Geronimo Stilton, e non ho mai smesso. Ad oggi, le mie letture maggiormente apprezzate sono i classici, i saggi storici ed i racconti brevi. </i>
+                                                </li>
+                                                <li class="altro swiper-slide">
+                                                        <img src="images/How-I-Work_-Andrea-Love.png" alt="stopmotion" class="altro-image">
+                                                <h3 class="name">Stop-Motion</h3>
+                                                <i class="feedback">L'animazione stop motion ha sempre esercitato un grande fascino su di me, partendo da Coraline e la porta magica che mi ha conquistato per l'equilibrio perfetto tra l'essere inquietante e tranquillizzante. Oggi mi cimento in brevi filmati animati di stop motion che animano le mie storie personali.
+                                                </i>
+                                                </li>
+                                                <li class="altro swiper-slide">
+                                                        <img src="images/2.png" alt="yoga" class="altro-image">
+                                                <h3 class="name">Yoga</h3>
+                                                <i class="feedback">Lo yoga è un'attività estremamente rilassante che mi permette di riconnettere con il mio corpo in un modo che mi permette di esplorare movimenti che altrimenti non avrei modo di sperimentare.
+                                                </i>
+                                                </li>
+                                        </ul>
+                                        </ul>
+                                        <div class="swiper-pagination"></div>
+                                        <div class="swiper-slide-button swiper-button-prev"></div>
+                                        <div class="swiper-slide-button swiper-button-next"></div>
+                                </div>
+                        </div>
+                </div>
+          </section>
+
+          <!--Sezione Galleria
+          <section class="gallery-section">
+                <h2 class="section-title">Galleria</h2>
+                <div class="section-content">
+                        <ul class="gallery-list">
+                                <li class="gallery-item">
+                                        <img src="images/writer.png" alt="Gallery" class="gallery-image">
+                                </li>
+                                <li class="gallery-item">
+                                        <img src="images/writer.png" alt="Gallery" class="gallery-image">
+                                </li>
+                                <li class="gallery-item">
+                                        <img src="images/writer.png" alt="Gallery" class="gallery-image">
+                                </li>
+                                <li class="gallery-item">
+                                        <img src="images/writer.png" alt="Gallery" class="gallery-image">
+                                </li>
+                                <li class="gallery-item">
+                                        <img src="images/writer.png" alt="Gallery" class="gallery-image">
+                                </li>
+                        </ul>
+                </div>
+          </section>
+        -->
+          <!--Contatti-->
+          <section class="contact-section" id="contact">
+                <h2 class="section-title">Contattami!</h2>
+                <div class="section-content">
+                        <ul class="contact-info-list">
+                                <li class="contact-info">
+                                        <i class="fa-solid fa-location-crosshairs"></i>
+                                        <p>Pisa, PI                                        </p>
+                                </li>
+                                <li class="contact-info">
+                                        <i class="fa-regular fa-envelope"></i>
+                                        <p>lavinia.rotellini@gmail.com</p>
+                                </li>
+                                <li class="contact-info">
+                                        <i class="fa-solid fa-globe"></i>
+                                        <p>Pisa, PI</p>
+                                </li>
+                        </ul>
+                        <form action="#" class="contact-form">
+                                <input type="text"  placeholder= "Your name" class = "form-input" required>
+                                <input type="email" placeholder= "Your email"  class= "form-input" required>
+                                <textarea placeholder = "Your Message" class="form-input" required></textarea>
+                                <button class="submit-button">Submit</button>
+                        </form>
+                </div>
+          </section>
+
+        <!--Footer-->
+        <footer class="footer-section">
+                <div class="section-content"></div>
+                <p class="copyrigth-text"> C 2024 Coffee Shop </p>
+
+                <div class="social-link-list">
+                        <div class="social-link-list">
+                                        <a href="https://www.linkedin.com/in/lavinia-rotellini-909328265/" class="social-link" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                        <a href="https://www.instagram.com/lavinia.rtl/" class="social-link" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                        <a href="https://github.com/LaviniaRotellini" class="social-link" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                <p class="policy-text">
+                        <a href="#" class="policy-link">Privacy policy</a>
+                        <span class="separator">.</span>
+                        <a href="#" class="policy-link">Refund policy</a>
+                </p>  
+                </div>
+        </footer>
+        </main>
+
+        <!--Linking Swiper script-->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+        
+        <!--Linking costum script-->
+        <script src="script.js"></script>
+
+</body>
+</html>

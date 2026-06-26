@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang = "eng">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lavinia Rotellini - Digital Humanites MCs</title>
+        <!-- Linking font awesome for icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <!--Linking SWIPER CSS-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+        <link rel = "stylesheet" href="style.css">
+</head>
+
+<body>
+ <!-- Header / Navbar -->
+        <header>
+        <nav class="navbar section-content">
+        <a href = "#" class = "nav-logo">
+        <h2 class = "logo-text">Progetti di Coding</h2>
+        </a>
+        <ul class = "nav-menu">
+                <button id = "menu-close-button" class="fas fa-times"></button>
+
+                <li class = "nav-item">
+                        <a href="lavinia.html" class = "nav-link">Home</a>
+                </li>
+                <li class = "nav-item">
+                        <a href="progetti.html" class = "nav-link">Progetti</a>
+                </li>
+                <li class = "nav-item">
+                        <a href="corsi.html" class = "nav-link">Corsi</a>
+                </li>
+                <li class = "nav-item">
+                        <a href="altro.html" class = "nav-link">Altro</a>
+                </li>
+                <li class = "nav-item">
+                        <a href="lavinia.html" class = "nav-link">Contatti</a>
+                </li>
+                
+                </ul>
+
+                <button id = "menu-open-button" class="fas fa-bars"></button>
+        </nav>
+        </header>
+    <main>
+        <!--Tesi Magistrale-->
+        <section class="tesi-magistrale" id = "tesi">
+            <h2 class="section-title">MSc Thesis - Digital Humanities</h2>
+            <div class="section-content">
+                <p class="text">My thesis introduced <i>BiFlow: A Bibliometric Framework for Monitoring Institutional Research Flows</i>. The idea behind the work was using bibliometric data, such as publication dates, affiliation histories, fields of study, to predict how researchers move between institutions.
+                    Applied to the Italian academic landscape, BiFlow combined machine learning, explainable AI (XAI), big data analytics and computational linguistics to answer three main questions:
+                    - Can researcher mobility be predicted from bibliometric data alone?
+                    - Which features carry the most predictive power?
+                    - Can explainability improve classification by narrowing the feature space to what actually matters?
+                </p>
+            </div>
+        </section>
+
+        <!--Linguistica Computazionale-->
+        <section class="ling-comp" id = "ling-comp">
+            <h2 class="section-title">Automated Authorship Attribution</h2>
+            <div class="section-content">
+                <p class="text">Solving an authorship attribution task on a corpus composed of works by three authors: Victor Hugo, Charles Dickens and George Eliot. The analysis is divided in five tasks:
+                    -Pre processing: counting and cleaning of paragraphs, creation of the dataset
+                    -Classification using linear Support Vector Machine based on linguistic information, lexical information excluded 
+                    -Classification using linear Support Vector Machine and n-grams of words, tokens, characters
+                    -Classification using linear Support Vector Machine and word embeddings
+                    -Fine tuning and classification using a Transformer model
+                </p>
+            </div>
+        </section>
+
+        <!--Data Mining-->
+        <section class="data-mining" id = "data-mining">
+            <h2 class="section-title">Analysis of the Internet Movie Database (IMDb)</h2>
+            <div class="section-content">
+                <p>
+                    This work presents a comprehensive data mining analysis of the IMDb dataset, covering nearly 150,000 titles across multiple analytical tasks. After an extensive preprocessing phase — including missing value imputation via trained classifiers and regressors, outlier detection using LOF, ABOD, and Isolation Forest, and handling of class imbalance through SMOTE, ADASYN, Tomek Links, and ENN — two main classification targets were addressed: titleType and rating. For titleType, models achieved strong results (up to 93% accuracy with XGBoost), while predicting rating proved far harder due to its subjective nature and imbalanced distribution, with best models reaching only around 45% accuracy. SHAP explainability analysis revealed that runtime and number of distribution regions were the most informative features for titleType classification. The paper also includes a regression task on averageRating, a time series analysis of daily box office revenue using motifs, clustering, and shapelet-based classification, and a sequential pattern mining phase, which confirmed that films consistently maintain high revenues in the days immediately following release.
+                </p>
+            </div>
+        </section>
+
+        <!--Social Network Analysis-->
+        <section class="sna" id = "sna">
+            <h2 class="section-title">Echo chambers in the subreddit r/DebateVaccines</h2>
+            <div class="section-content">
+                <p>This work investigates whether echo chambers exist in the Reddit community r/DebateVaccines by analyzing user interactions through social network analysis and natural language processing. A network of over 20,000 users connected by comment interactions was built, then four community detection algorithms were applied (Leiden, Label Propagation, Walktrap, and Demon) to identify clusters. My collegues and I also modeled higher-order interactions using hypergraphs to study how users engage with specific posts. Sentiment analysis classified users as positive, negative, or neutral toward vaccines, revealing a low assortativity score (0.013), meaning users do not strongly prefer interacting with like-minded people. The study concludes that echo chambers do exist in the subreddit, but only in small, tight-knit communities — largely because Reddit's popularity-based recommendation system, unlike Twitter or Instagram, exposes users to a broader range of opinions.</p>
+            </div>
+        </section>
+
+        <!--Predictive Analysis on OULAD-->
+        <section class="oulad" id = "oulad">
+            <h2 class="section-title">Predictive Analysis on the Open University Learning Analytics Dataset</h2>
+            <div class="section-content">
+                <p>This work presents a predictive analysis of student outcomes using the Open University Learning Analytics Dataset (OULAD), framed within the broader context o…This paper presents a predictive analysis of student outcomes using the Open University Learning Analytics Dataset (OULAD), framed within the broader context of Technology-Enhanced Learning and Educational Data Mining. I merged seven dataset tables into a unified dataframe, performing extensive preprocessing including handling missing values, discretizing high-granularity variables, and engineering engagement features such as total clicks. A multiclass classification task is then carried out to predict whether a student will pass, fail, or withdraw from a course, using seven machine learning models, of which Gradient Boosting and Random Forest performed best, reaching around 78% and 76% accuracy respectively. A clustering phase using KMeans further segmented students into meaningful groups, later used as a feature in classification. The explainability analysis revealed that the most predictive variables were assessment weight, score, and low engagement with the VLE platform, suggesting that early interventions targeting at-risk students — particularly those with low interaction and prior failed attempts — could meaningfully improve educational outcomes.</p>
+            </div>
+        </section>
+
+                <!--Footer-->
+        <footer class="footer-section">
+                <div class="section-content"></div>
+                <p class="copyrigth-text"> C 2024 Coffee Shop </p>
+
+                <div class="social-link-list">
+                        <div class="social-link-list">
+                                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                                        <a href="#" class="social-link"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                <p class="policy-text">
+                        <a href="#" class="policy-link">Privacy policy</a>
+                        <span class="separator">.</span>
+                        <a href="#" class="policy-link">Refund policy</a>
+                </p>  
+                </div>
+        </footer>
+    </main>
+    <!--Linking costum script-->
+        <script src="script.js"></script>
+</body>
+</html> 
